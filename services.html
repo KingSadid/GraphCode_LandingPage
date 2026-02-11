@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios | GraphCode</title>
+    <meta name="description" content="Servicios de programación, diseño gráfico y publicidad de GraphCode.">
+    <link rel="stylesheet" href="src/css/main.css">
+</head>
+
+<body>
+
+    <div class="transition-overlay">
+        <div class="panel"></div>
+        <div class="panel"></div>
+        <div class="panel"></div>
+    </div>
+
+    <nav class="navbar scrolled" id="main-nav">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+                <img src="src/img/logo.svg" alt="GraphCode">
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div data-barba="wrapper">
+        <main data-barba="container" data-barba-namespace="services">
+
+            <section class="page-header">
+                <div class="hero-bg">
+                    <div class="geo-shape"></div>
+                    <div class="geo-shape"></div>
+                    <div class="geo-shape"></div>
+                    <div class="hero-grid"></div>
+                </div>
+                <div class="page-header-content" data-anime="fade-in">
+                    <span class="section-label" style="color: var(--teal-light);">Servicios</span>
+                    <h1>Nuestras Soluciones</h1>
+                    <p>Explora nuestro portafolio de servicios especializados.</p>
+                </div>
+            </section>
+
+            <div class="service-section">
+                <div class="container">
+                    <div class="service-section-header" data-anime="fade-in">
+                        <div class="service-section-number">01</div>
+                        <div class="service-section-title">
+                            <h2>Programación</h2>
+                            <p>Desarrollo web y de software a medida</p>
+                        </div>
+                    </div>
+                    <div class="coming-soon-box" data-anime="fade-in">
+                        <div class="coming-soon-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <polyline points="16 18 22 12 16 6" />
+                                <polyline points="8 6 2 12 8 18" />
+                            </svg>
+                        </div>
+                        <h3>Coming Soon</h3>
+                        <p>Estamos preparando algo increíble. Muy pronto podrás explorar nuestros proyectos de
+                            desarrollo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-section">
+                <div class="container">
+                    <div class="service-section-header" data-anime="fade-in">
+                        <div class="service-section-number">02</div>
+                        <div class="service-section-title">
+                            <h2>Diseño Gráfico</h2>
+                            <p>Creatividad visual sin límites</p>
+                        </div>
+                    </div>
+                    <div class="comic-placeholder" data-anime="fade-in">
+                        <div class="comic-content">
+                            <span class="comic-badge">Próximamente</span>
+                            <h3>Comic 'Código Creativo'</h3>
+                            <p>Próximo lanzamiento: Comic 'Código Creativo'</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-section">
+                <div class="container">
+                    <div class="service-section-header" data-anime="fade-in">
+                        <div class="service-section-number">03</div>
+                        <div class="service-section-title">
+                            <h2>Publicidad</h2>
+                            <p>Estrategias visuales que conectan con tu audiencia</p>
+                        </div>
+                    </div>
+                    <div class="poster-gallery-wrapper" data-anime="fade-in">
+                        <p class="poster-gallery-description">Nuestros proyectos publicitarios</p>
+                        <div class="poster-gallery" data-anime="stagger">
+                            <div class="poster-item">
+                                <span class="poster-label">Poster 01</span>
+                            </div>
+                            <div class="poster-item">
+                                <span class="poster-label">Poster 02</span>
+                            </div>
+                            <div class="poster-item">
+                                <span class="poster-label">Poster 03</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <img src="src/img/logo.svg" alt="GraphCode" class="footer-logo">
+                <ul class="footer-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 GraphCode. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Términos y condiciones</a>
+                    <a href="#">Política de privacidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core@2.9.7/dist/barba.umd.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.12/dist/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+    <script src="src/js/lenis-config.js"></script>
+    <script src="src/js/animations.js"></script>
+    <script src="src/js/barba-config.js"></script>
+</body>
+
+</html>
